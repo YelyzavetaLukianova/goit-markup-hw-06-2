@@ -445,7 +445,7 @@
     <!-- =========================footer======================================================== -->
     <footer class="footer-section footer">
       <div class="container footer-container">
-        <div>
+        <div class="address-container">
           <a href="/" class="logo-link-footer link"
             ><span class="span-logo footer-logo">Web</span
             ><span class="footer-logo span-logo-footer">Studio</span></a
@@ -513,6 +513,31 @@
             </li>
           </ul>
         </div>
+
+        <div>
+          <h3 class="footer-social-title">Подпишитесь на рассылку</h3>
+          <div>
+            <form action="#">
+              <div class="footer-form-container">
+                <input
+                  class="footer-form"
+                  type="email"
+                  name="mailing"
+                  placeholder="E-mail"
+                  id=""
+                />
+                <button class="footer-form-btn" type="submit">
+                  Подписаться
+                  <svg class="mailing-icon">
+                    <use
+                      href="./images/for-sprite/sprite.svg#icon-mailing"
+                    ></use>
+                  </svg>
+                </button>
+              </div>
+            </form>
+          </div>
+        </div>
       </div>
     </footer>
 
@@ -569,14 +594,13 @@
             </span>
           </div>
           <div>
-            <label for="user-comment" class="label-item">Комментарий</label>
+            <label for="user-comment" class="label-item"></label>
             <textarea
               name="user-comment"
               id="user-comment"
               class="form-textarea"
-            >
-Введите текст</textarea
-            >
+              placeholder="Введите текст"
+            ></textarea>
           </div>
           <div class="checkbox-container">
             <input
